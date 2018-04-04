@@ -1,0 +1,1 @@
+##This is the first project I made after learning Python for a month in December, 2018, and I made it for my boyfriend's guitar playing.XXD

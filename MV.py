@@ -60,9 +60,9 @@ MSquareY = 600
 
 
 
-# Joined the two while loops into one
+
 while True:
-   # move to right and down
+  
     surface.fill((200, 0, 0))
     pygame.draw.rect(surface, (255, 0, 0), (random.randint(0, windowWidth), random.randint(0, windowHeight), 10, 10))
 
@@ -173,11 +173,11 @@ while True:
 
 
 
-    # Do not capitalize the .get() method for pygame.event class
+   
     for event in GAME_EVENTS.get():
         if event.type == GAME_GLOBALS.QUIT:
             pygame.quit()
             sys.exit()
 
-    # Misspelled pygame.display
+    
     pygame.display.update()
